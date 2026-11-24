@@ -1,11 +1,17 @@
 {
-  "id": "aiman-azam-lossless",
+  "id": "com.aimanazam.lossless",
   "name": "Aiman Azam Lossless",
-  "description": "Lossless music addon for BitChord",
   "version": "1.0.0",
-  "author": "Aiman Azam",
-  "resources": ["catalog", "meta", "stream"],
-  "types": ["music"],
-  "idPrefixes": ["aimanzam"],
-  "catalogs": []
+  "resources": ["search", "stream"],
+  "settings": [
+    {
+      "key": "quality",
+      "type": "select",
+      "default": "lossless",
+      "options": [
+        {"label": "Lossless", "value": "lossless"},
+        {"label": "High", "value": "high"}
+      ]
+    }
+  ]
 }
