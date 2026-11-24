@@ -1,0 +1,11 @@
+{
+  "id": "aiman-azam-lossless",
+  "name": "Aiman Azam Lossless",
+  "description": "Lossless music addon for BitChord",
+  "version": "1.0.0",
+  "author": "Aiman Azam",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["music"],
+  "idPrefixes": ["aimanzam"],
+  "catalogs": []
+}
